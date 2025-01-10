@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Título principal da página -->
+    <h1>Imagens dinamicas</h1>
+
+    <!-- Breve descrição para orientar o usuário -->
+    <p>Tente abrir esse site em vários dispositivos</p>
+
+    <!-- Elemento <picture> para carregamento de imagens responsivas -->
+    <picture>
+        <!-- Imagem pequena para dispositivos com largura até 750px -->
+        <source media="(max-width:750px)" srcset="imagens/imagem-pequena.png" type="image/png">
+
+        <!-- Imagem média para dispositivos com largura até 1050px -->
+        <source media="(max-width:1050px)" srcset="imagens/imagem-media.png" type="image/png"> 
+
+        <!-- Imagem padrão para dispositivos maiores -->
+        <img src="imagens/imagem-grande.png" alt="foto grande"> 
+
+    </picture>
+</body>
+</html>

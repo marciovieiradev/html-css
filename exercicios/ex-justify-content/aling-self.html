@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-self</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            justify-content:center;
+            align-items:flex-start; /*aqui determinei que todos ficassem no inicio*/
+            height: 300px;
+            gap: 10px;
+           background-color: antiquewhite;
+        }
+       
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+           background-color: aqua;
+        }
+        .item1{
+            align-self: flex-end;/*ja aqui eu especifiquei que um item ficasse no fim(end)*/
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <di class="item1 item">1</di>
+        <di class="item2 item">2</di>
+        <di class="item3 item">3</di>
+    </div>
+</body>
+</html>

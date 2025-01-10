@@ -1,0 +1,26 @@
+/* 
+  @charset "UTF-8" é usado para definir a codificação de caracteres do arquivo CSS.
+  Isso garante que caracteres especiais, como acentos e símbolos, sejam exibidos corretamente.
+  Deve ser a primeira linha do arquivo e é especialmente útil quando se trabalha com textos
+  ou fontes que incluem caracteres fora do padrão ASCII.
+*/
+@charset "UTF-8";
+
+/* Estilização geral */
+
+/* Define cor de fundo do site */
+body {
+    background-color: antiquewhite;
+}
+
+/* Estilização de elementos de texto */
+
+/* Define cor de todos os títulos h1 do site */
+h1 {
+    color: blue;
+}
+
+/* Define cor de todos os parágrafos do site */
+p {
+    color: brown;
+}

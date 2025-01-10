@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de teste com gradientes e fontes personalizadas">
+    <meta name="author" content="Marcio Vieira">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degrade</title>
+
+    <!-- Importação de fontes externas -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+    <style>
+        
+        /* Importação de fonte local */
+        @font-face {
+            font-family:'love'; /* Nome personalizado da fonte */
+            src: url('myloves.ttf') format('truetype'); /* Caminho local da fonte */
+            /* tipos de formar
+                - opentype(otf)
+                - truetype(ttf)
+            
+            */
+        }
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to top, white, blue);
+            background-attachment: fixed;
+            color: #000000; /* Cor padrão para o texto */
+            font-family: 'Poppins', sans-serif; /* Fonte padrão com fallback */
+            text-align: center; /* Centraliza texto */
+        }
+
+        /* Estilização de elementos */
+        h1 {
+            font-weight:500; /* Peso médio */
+        }
+        h2{
+            font-family:'love', sans-serif; /* Fonte personalizada com fallback */
+            font-size: 50px;
+            font-weight:normal;
+        }
+    </style>
+</head>
+<body>
+    <!-- Título principal -->
+    <h1>Testando gradientes</h1>
+    
+    <!-- Sub-Título -->
+    <h2>Testando Fontes Baixadas</h2>
+</body>
+</html>
